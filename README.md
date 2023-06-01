@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# MeetMate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MeetMate is a powerful web application designed to provide users with comprehensive summaries of online meetings. With MeetMate, users can effortlessly generate meeting summaries from text or audio input, helping them save time and stay organized. The application offers an intuitive interface and a range of features to enhance the meeting summarization process.
 
-## Available Scripts
+## Features:
 
-In the project directory, you can run:
+### ‧ Meeting Summaries: 
+MeetMate automatically generates concise summaries of online meetings, enabling users to quickly grasp the main points discussed during the session.
 
-### `npm start`
+### ‧ Topic Extraction:
+Users can easily identify the main topic or subject matter covered in the meeting, ensuring efficient categorization and referencing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ‧ Translation Option:
+MeetMate provides a built-in translation feature, allowing users to seamlessly translate meeting summaries into their preferred language.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ‧ Keyword Extraction: 
+The application extracts essential keywords from the meeting content, helping users quickly locate key information and key takeaways.
 
-### `npm test`
+### ‧ Attendee Count: 
+MeetMate provides insights into the number of attendees present in the meeting, giving users an overview of the meeting's scale and participation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Technology Stack:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+MeetMate leverages modern technologies to deliver its exceptional functionality. The frontend is built using React, providing a responsive and interactive user interface. For the backend, Flask, a Python framework, serves as the robust foundation for handling file uploads, processing user input, and generating accurate summaries. The summarization task is accomplished using the powerful BART (Bidirectional and AutoRegressive Transformers) model.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+MeetMate offers a seamless user experience, with no requirement for user registration or login. Simply visit the MeetMate website, upload your meeting file (text or audio format), and select the desired length of the summary (short, medium, or long). MeetMate will process your input and provide you with a comprehensive meeting summary, along with additional features like topic extraction, translation options, keyword extraction, and attendee count.
 
-### `npm run eject`
+For more information, demos, and updates, visit the MeetMate website at { TBD }
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
